@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.Activity.LoginActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/social_network"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Welcome to social world"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep connected with friends"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/input_text_bg"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/input_text_bg"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="20dp"
+        android:hint="Password"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Login"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Don't have an account?"/>
+
+        <TextView
+            android:id="@+id/directToRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="Register!"
+            android:textColor="#C67C0F"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</LinearLayout>

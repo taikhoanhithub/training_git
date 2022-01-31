@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileUser"
+        android:layout_width="@dimen/_60mdp"
+        android:layout_height="@dimen/_60mdp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C2CACA"
+        android:src="@drawable/neymar1"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="5dp" />
+
+        <TextView
+            android:id="@+id/nameOfUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="neymar"
+            android:layout_toRightOf="@id/profileUser"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/professionOfUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_toRightOf="@id/profileUser"
+        android:text="profession"
+        android:textSize="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/followBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/follow_button_bg"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:text="Follow"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/storyImage"
+        android:layout_width="@dimen/_130mdp"
+        android:layout_height="@dimen/_65font_mdp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/child2"
+        app:riv_border_color="#333333"
+        app:riv_border_width="2dip"
+        app:riv_corner_radius="10dip"
+        app:riv_mutate_background="true"
+        app:riv_tile_mode="clamp" />
+
+
+    <com.devlomi.circularstatusview.CircularStatusView
+        android:id="@+id/circular_status_view"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:portion_color="#AA2828"
+        app:portion_spacing="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/neymar1"
+        app:portion_width="2dp"
+        app:portions_count="10" />
+
+
+    <ImageView
+        android:id="@+id/storyType"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/live" />
+
+    <TextView
+        android:id="@+id/storyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="100dp"
+        android:text="Neymar"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

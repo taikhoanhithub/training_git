@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dashboardAvatar"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/neymar1"
+        app:civ_border_color="@color/teal_700"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/dashboardName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@id/dashboardAvatar"
+        android:text="Neymar Junior"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dashboardName"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/dashboardAvatar"
+        android:text="Travler, Left Lower"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_more" />
+
+    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imgDashBoard"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/dashboardAvatar"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/child"
+        app:riv_border_color="#333333"
+        app:riv_border_width="2dip"
+        app:riv_mutate_background="true"
+        app:riv_tile_mode="clamp" />
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_bookmark" />
+
+    <TextView
+        android:id="@+id/postDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgDashBoard"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="post description" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/postDescription"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/ic_like"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="354"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@android:drawable/sym_action_chat"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="354"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@android:drawable/ic_menu_share"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="354"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

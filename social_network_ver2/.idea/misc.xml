@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/circle_gray_bg.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/follow_active_btn.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/follow_button_bg.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_add.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_addfriend.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_bell.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_bookmark.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_checked.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_heart2.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_home.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_like.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_messenger.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_more.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_profile_svgrepo_com.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_search.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/ic_setting.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/input_text_bg.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/right_round_bg.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/drawable/toolbar_bg.xml" value="0.22291666666666668" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/activity_comment.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/activity_login2.xml" value="0.20677083333333332" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/activity_sign_up.xml" value="0.20677083333333332" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/activity_sign_up2.xml" value="0.20677083333333332" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/circle_gray_bg.xml" value="0.20677083333333332" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/comment_sample.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/dashboard_rv_layout.xml" value="0.22" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/demo_post.xml" value="0.22" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/fragment_add.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/fragment_add_post.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/fragment_notification2.xml" value="0.1" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/fragment_request.xml" value="0.1" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/friend_rv_sample.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/notification2_sample.xml" value="0.20677083333333332" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/post_rv_layout.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/story_review_layout.xml" value="0.67" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/layout/user_sample.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/menu/menu_bottom_layout.xml" value="0.25" />
+        <entry key="..\:/social_network_ver2/app/src/main/res/menu/menu_item.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

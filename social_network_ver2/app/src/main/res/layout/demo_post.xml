@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="#F1EAEA"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <View
+                android:layout_width="130dp"
+                android:layout_height="20dp"
+                android:background="#F1EAEA"/>
+            <View
+                android:layout_width="130dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#F1EAEA"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200mdp"
+        android:layout_marginTop="20dp"
+        android:background="#F1EAEA"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25mdp"
+        android:layout_marginTop="10dp"
+        android:background="#F1EAEA"/>
+
+</LinearLayout>

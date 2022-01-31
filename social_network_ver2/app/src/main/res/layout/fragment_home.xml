@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="28dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Discover"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/neymar1"
+                    app:civ_border_color="@color/teal_700"
+                    android:layout_marginLeft="230dp"
+                    app:civ_border_width="1dp"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D6CACA"
+                android:layout_marginTop="5dp"/>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/roundedImg"
+                        android:layout_width="@dimen/_130mdp"
+                        android:layout_height="@dimen/_65font_mdp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/child"
+                        app:riv_border_color="#333333"
+                        app:riv_border_width="2dip"
+                        app:riv_corner_radius="10dip"
+                        app:riv_mutate_background="true"
+                        app:riv_tile_mode="clamp" />
+
+                    <ImageView
+                        android:id="@+id/imgAdd"
+                        android:layout_width="@dimen/_30mdp"
+                        android:layout_height="@dimen/_30mdp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="65dp"
+                        android:src="@drawable/imgadd" />
+
+                    <TextView
+                        android:id="@+id/txtCreateAStory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imgAdd"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="45dp"
+                        android:text="Create a story"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+                        android:id="@+id/recyclerViewStory"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_65font_mdp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/roundedImg"
+                        app:shimmer_demo_child_count="10"
+                        app:shimmer_demo_grid_child_count="2"
+                        app:shimmer_demo_layout="@layout/demo_post"
+                        app:shimmer_demo_layout_manager_type="grid"
+                        app:shimmer_demo_angle="20"/>
+
+                </RelativeLayout>
+
+            </HorizontalScrollView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="3dp"
+                android:background="#D6CACA"/>
+            <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+                android:id="@+id/recyclerViewPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:shimmer_demo_child_count="10"
+                app:shimmer_demo_grid_child_count="2"
+                app:shimmer_demo_layout="@layout/demo_post"
+                app:shimmer_demo_layout_manager_type="grid"
+                app:shimmer_demo_angle="20"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
